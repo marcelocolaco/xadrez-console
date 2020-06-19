@@ -1,4 +1,5 @@
 ﻿using System;
+using xadrez_console.tabuleiro;
 using xadrez_console.Tabuleiro;
 
 namespace xadrez_console
@@ -8,8 +9,10 @@ namespace xadrez_console
         static void Main(string[] args)
         {
 
-            Posicao p = new Posicao(4, 3);
-            Console.WriteLine(p);
+            Tabuleiro T = new Tabuleiro(8, 8);
+           
+            Cor cor = Cor.Branca;
+
         }
     }
 }
